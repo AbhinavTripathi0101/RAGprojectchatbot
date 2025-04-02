@@ -9,7 +9,7 @@ from langchain.llms import HuggingFaceHub
 from langchain.chains import RetrievalQA
 
 # 🔹 Set Hugging Face API Key
-HUGGINGFACEHUB_API_TOKEN = "your_huggingface_api_key"  # Replace with your key
+HUGGINGFACEHUB_API_TOKEN = " your_huggingface_api_key"  # Replace with your key
 os.environ["HUGGINGFACEHUB_API_TOKEN"] = HUGGINGFACEHUB_API_TOKEN
 
 # 🔹 Streamlit UI
